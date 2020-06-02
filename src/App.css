@@ -1,39 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 .filter {
   display: flex;
-  justify-content: center;
-  margin: 10px 0;
+  margin-top: 20px;
+  margin-bottom:20px;
+  margin-left: calc((100% - 45%) / 2 - 20px);
 }
 
 .filter div {
-  padding: 5px 15px;
+  padding: 8px 18px;
   border: 1px solid;
   margin-right: 10px;
   cursor: pointer;
+  font-weight: 500;
+}
+.filter div:hover {
+  background-color: #f0f0f0;
 }
 
 .filter .active {
   color: #ffffff;
   background-color: #8a8a8a;
+  font-weight: 700;
 }
 
 .project-list {
   display: flex;
   justify-content: center;
 }
+
 .column {
-  width: 25%;
-  margin-right: 10px;
+  width: 15%;
 }
 
-.column:last-child {
-  margin-right: 0;
+.column:nth-child(n+2) {
+  margin-left: 20px;
 }
 
 .project-list img {
   width: 100%;
-  margin-bottom: 10px;
 }
 
-.project-list img:last-child {
-  margin-bottom: 0;
+.project-list img:nth-child(n+2) {
+  margin-top: 20px;
 }
