@@ -17,6 +17,7 @@
   cursor: pointer;
   font-weight: 500;
 }
+
 .filter div:hover {
   background-color: #f0f0f0;
 }
@@ -25,6 +26,10 @@
   color: #ffffff;
   background-color: #8a8a8a;
   font-weight: 700;
+}
+
+.filter .active:hover {
+  background-color: #8a8a8a;
 }
 
 .project-list {
